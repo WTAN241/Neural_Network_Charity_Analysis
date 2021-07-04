@@ -8,7 +8,9 @@ The purpose of this analysis is to help Beks create a binary classifier that is 
 ### Data Preprocessing
 
 #### What variable(s) are considered the target(s) for your model?
-The target for my model is the column named "IS_SUCCESSFUL".
+The target for my model is the column named "IS_SUCCESSFUL" as shown in the image below.
+
+![Target_Column](https://github.com/WTAN241/Neural_Network_Charity_Analysis/blob/main/Resources/Target_Column.PNG)
 
 #### What variable(s) are considered to be the features for your model?
 The features of my model include the following columns:
@@ -30,10 +32,13 @@ For this model, I have selected 3 layers, 80 neurons for the first layer, 30 neu
 #### Were you able to achieve the target model performance?
 No, I was not able to successfully achieve the target model performance of 75% of accuracy.
 
+![Model_Optimization_Results](https://github.com/WTAN241/Neural_Network_Charity_Analysis/blob/main/Resources/Model_Optimization_Results.PNG)
+
 #### What steps did you take to try and increase model performance?
 I have tried the three steps below to increase model performance:
 1. I have dropped a few more columns such as "AFFILIATION" and "ORGANIZATION"
 2. I have added an additional layer with 30 neurons and using the relu activation function
-3. I have reduced the number of neurons in the first and second layer to 50 and 20 respectively
+3. I have increased the number of neurons in the first and second layer to 100 and 50 respectively
 
 ## Summary
+The overall results of this model shows that it can potentially achieve an accuracy rate of 68.9% and a loss of 69.2%. The reason why the accuracy rate could not achieve the targeted rate of 75% might be an indication that a deep learning model is not the best model for this dataset. A random forest model could be a better predictor for this dataset.
