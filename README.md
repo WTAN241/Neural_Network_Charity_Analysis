@@ -22,7 +22,7 @@ The features of my model include the following columns:
 6. SPECIAL_CONSIDERATIONS
 
 #### What variable(s) are neither targets nor features, and should be removed from the input data?
-The variables that are neither targets nor feaures and have been removed from the input data are the columns "EIN" and "NAME"
+The variables that are neither targets nor features and have been removed from the input data are the columns "EIN" and "NAME"
 
 ### Compiling, Training, and Evaluating the Model
 
@@ -41,4 +41,4 @@ I have tried the three steps below to increase model performance:
 3. I have increased the number of neurons in the first and second layer to 100 and 50 respectively
 
 ## Summary
-The overall results of this model shows that it can potentially achieve an accuracy rate of 68.9% and a loss of 69.2%. The reason why the accuracy rate could not achieve the targeted rate of 75% might be an indication that a deep learning model is not the best model for this dataset. A random forest model could be a better predictor for this dataset.
+The overall result of this model shows that it can potentially achieve an accuracy rate of 68.9% and a loss of 69.2%. The reason why the accuracy rate could not achieve the targeted rate of 75% might be an indication that a deep learning model is not the best model for this dataset. A random forest model could be a better predictor for this dataset.
